@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#111827" stroke="#3b82f6" stroke-width="2"/>
+  <!-- Concentric arcs representing radio/transmission -->
+  <path d="M 32 32 A 20 20 0 0 1 52 32" fill="none" stroke="url(#grad)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 32 32 A 14 14 0 0 1 46 32" fill="none" stroke="url(#grad)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 32 32 A 8 8 0 0 1 40 32" fill="none" stroke="url(#grad)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="32" cy="32" r="3" fill="#3b82f6"/>
+</svg>
